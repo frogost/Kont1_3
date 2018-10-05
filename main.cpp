@@ -3,11 +3,17 @@
 
 int main() {
     int a;
-    a=3;
-    std::cout << "Первое задание а="<< std::endl;
-    std::cout << a*6 << std::endl;
-    std::cout << "Первое задание а="<< std::endl;
-    std::cout << a-9 << std::endl;
+    char b;
+    int c;
+    float d;
+    a = 128789;
+    b ='}';
+    c = 32768;
+    d = 1000.5;
+    std::cout << a << '\n';
+    std::cout << b << '\n';
+    std::cout << -c << '\n';
+    std::cout << d << '\n';
 
     return 0;
 }
